@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>测试</title>
+<!-- 写的我头快炸的style -->
+<style>
+.button {
+    background-color: #009dff; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+.grid-container {
+  display: grid;
+  grid: 160px / auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+	}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px -2;
+  font-size: 30px;
+  background-color: #e7e7e7;
+}
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    background-color: #11254A;
+    margin: 0;
+    color: #fff;
+    padding: 13px 0px;
+    font-size: medium;
+}
+.grid-container.main{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    background-color: #11254A;
+    margin: 0;
+    color: #fff;
+    padding: 13px 0px;
+    font-size: medium;
+}
+</style>
+<meta charset="utf-8"> 
+<!--响应式--> 
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+<script src="js/jq.js"></script> 
+</head>
+<body>
+<!-- 导航栏 -->
+<ul>
+  <li><a href="index.html">主页</a></li>
+  <li><a href="update.html">更新日志</a></li>
+  <li><a href="download.html">下载</a></li>
+  <li><a class="active" href="news.html">新闻</a></li>
+  <li style="float:right"><a href="about.html">关于</a></li>
+</ul>
+<!-- 正文 -->
+<h1 align="center">新闻</h1>
+</body>
+</html>

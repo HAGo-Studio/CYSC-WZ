@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>测试</title>
+<style>
+.button {
+    background-color: #009dff; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+p.solid {border-style:solid;}
+</style>
+<meta charset="utf-8"> 
+<!--响应式--> 
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+<script src="js/jq.js"></script> 
+</head>
+<body>
+<!-- 导航栏 -->
+<ul>
+  <li><a href="index.html">主页</a></li>
+  <li><a href="update.html">更新日志</a></li>
+  <li><a class="active" href="download.html">下载</a></li>
+  <li><a href="news.html">新闻</a></li>
+  <li style="float:right"><a href="about.html">关于</a></li>
+</ul>
+<h1>稳定版下载</h1>
+<h2>稳定版本 0.131</h2>
+<p>整装待发的创游手册，最为推荐使用。</p>
+<a href="#" class="button">立即下载</a>
+<a href="#">历代稳定版下载（最不推荐）</a>
+<br>
+<br>
+<h1>预览版下载</h1>
+<h2>预览版本 0.132-PRE3</h2>
+<p>包含最新加入的功能，但不稳定。</p>
+<a href="#" class="button">立即下载</a>
+<a href="#">历代预览版下载（最不推荐）</a>
+</body>
+</html>
